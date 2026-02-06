@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Safeena</title>
+  </head>
+  <body>
+    <!-- Header section: Name, tagline, and navigation links -->
+
+    <header>
+      <h1>Safeena H</h1>
+      <p>Learning Full Stack Development | Step by Step</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- About section: Short introduction and profile image -->
+      <section id="about">
+        <h2>About Me</h2>
+        <article>
+          <p>
+            I am Safeena, an aspiring web developer who is learning full stack
+            development. I am currently focusing on HTML and semantic tags to
+            build clean and well-structured webpages. Through practice and small
+            projects, I aim to strengthen my foundation before moving on to
+            styling and interactivity.
+          </p>
+          <figure>
+            <img
+              src="images/profile-photo.png"
+              alt="Safeena profile photo"
+              width="400"
+            />
+          </figure>
+        </article>
+      </section>
+      <!-- Projects section: Sample projects with descriptions and details -->
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <article>
+          <h3>Personal Portfolio Website</h3>
+          <p>
+            A personal portfolio website created using HTML5 semantic elements.
+            This project helped me understand page structure, navigation using
+            internal links, and organizing content into sections such as About,
+            Projects, and Contact.
+          </p>
+          <ul>
+            <li><strong>Tools used:</strong> HTML5</li>
+            <li><strong>Status:</strong> Completed</li>
+          </ul>
+        </article>
+        <article>
+          <h3>HTML Practice Page</h3>
+          <p>
+            A practice webpage built to learn and experiment with basic HTML
+            elements including headings, paragraphs, lists, images, links, and
+            semantic layout tags.
+          </p>
+          <ul>
+            <li><strong>Tools used:</strong> HTML5</li>
+            <li><strong>Status:</strong> Completed</li>
+          </ul>
+        </article>
+        <article>
+          <h3>Contact Form Page</h3>
+          <p>
+            A simple contact form created using HTML to practice form elements
+            and basic form validation such as required fields and email input
+            type.
+          </p>
+          <ul>
+            <li><strong>Tools used:</strong> HTML5</li>
+            <li><strong>Status:</strong> In Progress</li>
+          </ul>
+        </article>
+      </section>
+      <!-- Contact section: Contact form with HTML validation -->
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          If you have any questions or feedback, please fill out the form below.
+          I will get back to you soon.
+        </p>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Send a Message</legend>
+
+            <p>
+              <label for="fullName">Name:</label><br />
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Enter your name"
+                required
+                minlength="2"
+              />
+            </p>
+
+            <p>
+              <label for="email">Email:</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </p>
+
+            <p>
+              <label for="subject">Subject:</label><br />
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Enter subject"
+                required
+                minlength="3"
+              />
+            </p>
+
+            <p>
+              <label for="message">Message:</label><br />
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message"
+                required
+                minlength="10"
+                maxlength="300"
+                rows="6"
+                cols="40"
+              ></textarea>
+            </p>
+
+            <p>
+              <button type="submit">Send Message</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <!-- Footer section: Copyright information -->
+
+    <footer>
+      <p>&copy; 2026 Safeena. All rights reserved</p>
+    </footer>
+  </body>
+</html>
